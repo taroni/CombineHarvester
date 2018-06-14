@@ -1,3 +1,4 @@
+<bin file="MorphingLFV.cpp" name="MorphingLFV"></bin>
 <bin file="MorphingMSSMLegacy.cpp" name="MorphingMSSMLegacy"></bin>
 <bin file="MorphingHhh.cpp" name="MorphingHhh"></bin>
 <bin file="MorphingAZh.cpp" name="MorphingAZh"></bin>
