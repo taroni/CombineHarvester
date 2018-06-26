@@ -1,0 +1,71 @@
+# Datacard produced by CombineHarvester with git status: analysis-HIG-16-006-freeze-080416-707-g7269308-dirty
+imax    1 number of bins
+jmax    7 number of processes minus 1
+kmax    * number of nuisance parameters
+--------------------------------------------------------------------------------
+shapes * lfv_et_2_13TeV lfv_et_2_13TeV_750_morf.input.root lfv_et_2_13TeV/$PROCESS lfv_et_2_13TeV/$PROCESS_$SYSTEMATIC
+--------------------------------------------------------------------------------
+bin          lfv_et_2_13TeV  
+observation  10.0            
+--------------------------------------------------------------------------------
+bin                                      lfv_et_2_13TeV  lfv_et_2_13TeV  lfv_et_2_13TeV  lfv_et_2_13TeV  lfv_et_2_13TeV  lfv_et_2_13TeV  lfv_et_2_13TeV  lfv_et_2_13TeV  
+process                                  SMH             DY              DYTT            ttbar           singlet         EWKDiboson      fakes           LFV             
+process                                  1               2               3               4               5               6               7               0               
+rate                                     0.661895        17.7563         8.13323         46.5161         7.69247         0.0273883       73.3644         1               
+--------------------------------------------------------------------------------
+BR_htt_PU_alphas                 lnN     1.0062          -               -               -               -               -               -               -               
+BR_htt_PU_mq                     lnN     1.0099          -               -               -               -               -               -               -               
+BR_htt_THU                       lnN     1.017           -               -               -               -               -               -               -               
+CMS_eff_e                        lnN     1.02            1.02            1.02            1.02            1.02            1.02            -               1.02            
+CMS_eff_tau                      lnN     1.05            1.05            1.05            1.05            1.05            1.05            -               1.05            
+CMS_lumi_13TeV                   lnN     1.025           1.025           1.025           1.025           1.025           1.025           -               1.025           
+EES                              shape   1               1               1               1               1               1               -               -               
+PU_Uncertainty                   shape   1               1               1               1               1               1               -               -               
+TES1p                            shape   1               -               1               -               -               1               -               -               
+TES1p10                          shape   1               -               1               -               -               1               -               -               
+TES3p                            shape   1               -               1               -               -               1               -               -               
+TheoSMH                          lnN     1.039           -               -               -               -               -               -               -               
+TheoSMHPDF                       lnN     1.032           -               -               -               -               -               -               -               
+btagVeto                         lnN     -               -               -               1.025           1.025           -               -               -               
+etfakeES                         shape   -               1               -               -               -               -               -               -               
+highPtTau                        shape   1               -               1               -               -               1               -               -               
+jesAbsoluteFlavMap               shape   1               1               1               1               1               1               -               -               
+jesAbsoluteMPFBias               shape   1               1               1               1               1               1               -               -               
+jesAbsoluteScale                 shape   1               1               1               1               1               1               -               -               
+jesAbsoluteStat                  shape   1               1               1               1               1               1               -               -               
+jesFlavorQCD                     shape   1               1               1               1               1               1               -               -               
+jesFragmentation                 shape   1               1               1               1               1               1               -               -               
+jesPileUpDataMC                  shape   1               1               1               1               1               1               -               -               
+jesPileUpPtBB                    shape   1               1               1               1               1               1               -               -               
+jesPileUpPtEC1                   shape   1               1               1               1               1               1               -               -               
+jesPileUpPtEC2                   shape   1               1               1               1               1               1               -               -               
+jesPileUpPtHF                    shape   1               1               1               1               1               1               -               -               
+jesPileUpPtRef                   shape   1               1               1               1               1               1               -               -               
+jesRelativeBal                   shape   1               1               1               1               1               1               -               -               
+jesRelativeFSR                   shape   1               1               1               1               1               1               -               -               
+jesRelativeJEREC1                shape   1               1               1               1               1               1               -               -               
+jesRelativeJEREC2                shape   1               1               1               1               1               1               -               -               
+jesRelativeJERHF                 shape   1               1               1               1               1               1               -               -               
+jesRelativePtBB                  shape   1               1               1               1               1               1               -               -               
+jesRelativePtEC1                 shape   1               1               1               1               1               1               -               -               
+jesRelativePtEC2                 shape   1               1               1               1               1               1               -               -               
+jesRelativePtHF                  shape   1               1               1               1               1               1               -               -               
+jesRelativeStatEC                shape   1               1               1               1               1               1               -               -               
+jesRelativeStatFSR               shape   1               1               1               1               1               1               -               -               
+jesRelativeStatHF                shape   1               1               1               1               1               1               -               -               
+jesSinglePionECAL                shape   1               1               1               1               1               1               -               -               
+jesSinglePionHCAL                shape   1               1               1               1               1               1               -               -               
+jesTimePtEta                     shape   1               1               1               1               1               1               -               -               
+norm_T                           lnN     -               -               -               -               1.05            -               -               -               
+norm_TT                          lnN     -               -               -               -               1.1             -               -               -               
+norm_TT_1jet                     lnN     -               -               -               1.05            -               -               -               -               
+norm_T_1jet                      lnN     -               -               -               -               1.05            -               -               -               
+norm_taufakes_etauhad            lnN     -               -               -               -               -               -               1.3             -               
+norm_taufakes_etauhad_uncor_1jet lnN     -               -               -               -               -               -               1.1             -               
+norm_z                           lnN     -               1.1             1.1             -               -               -               -               -               
+norm_z_1jet                      lnN     -               1.05            1.05            -               -               -               -               -               
+shape_FAKES                      shape   -               -               -               -               -               -               1               -               
+uesCharged                       shape   1               1               1               1               1               1               -               -               
+uesEcal                          shape   1               1               1               1               1               1               -               -               
+uesHF                            shape   1               1               1               1               1               1               -               -               
+uesHcal                          shape   1               1               1               1               1               1               -               -               

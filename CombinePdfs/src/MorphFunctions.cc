@@ -151,6 +151,7 @@ std::string BuildRooMorphing(RooWorkspace& ws, CombineHarvester& cb,
         .ForEachSyst([&](ch::Systematic *n) {
             ls_arr[lsi][mi] = n;
         });
+      if(verbose) std::cout << __LINE__ << " " << lsi << " "<< ls_vec[lsi] << " " << ls_arr[lsi][mi]->value_u() << std::endl;
     }
   }
 
@@ -211,8 +212,9 @@ std::string BuildRooMorphing(RooWorkspace& ws, CombineHarvester& cb,
       std::cout << boost::format("%-50s %-5i %-8.3g\n")
         % ss_vec[ssi] % ss_must_scale_arr[ssi] % ss_scale_arr[ssi];
     }
+    std::cout << std::endl;
   }
-
+  if (verbose) std::cout << __LINE__<< std::endl;
 
   // lms = "lnN morphing systematic"
   // Now we have some work to do with the lnN systematics. We can consider two cases:
@@ -228,6 +230,7 @@ std::string BuildRooMorphing(RooWorkspace& ws, CombineHarvester& cb,
   // index positions in our full ls_arr array for the lms systematics
   vector<unsigned > lms_vec_idx;  
   for (unsigned lsi = 0; lsi < ls; ++lsi) {
+    if (verbose) std::cout <<__LINE__ << " "<< lsi << std::endl;
     // Extra complication is that the user might have been evil and mixed
     // symmetric and asymmetric lnN values, we'll try and detect changes in
     // either
@@ -235,6 +238,7 @@ std::string BuildRooMorphing(RooWorkspace& ws, CombineHarvester& cb,
     set<double> k_lo;
     // Go through each mass point for this systematic and add the uncertainty
     // values (so-called "kappa" values)
+    if (verbose) std::cout << __LINE__<< std::endl;
     for (unsigned mi = 0; mi < m; ++mi) {
       Systematic *n = ls_arr[lsi][mi];
       k_hi.insert(n->value_u());
@@ -242,13 +246,18 @@ std::string BuildRooMorphing(RooWorkspace& ws, CombineHarvester& cb,
         k_lo.insert(n->value_d());
       }
     }
+    if (verbose) std::cout << __LINE__<< std::endl;
+
     // If either of these sets has more than one entry then this is a lms case
     if (k_hi.size() > 1 || k_lo.size() > 1) {
       lms_vec.push_back(ls_vec[lsi]);
       lms_set.insert(ls_vec[lsi]);
       lms_vec_idx.push_back(lsi);
     }
+    if (verbose) std::cout << __LINE__<< std::endl;
   }
+  if (verbose) std::cout << __LINE__<< std::endl;
+
   unsigned lms = lms_vec.size();
   // New array for the pointers to the lms Systematic objects
   multi_array<ch::Systematic *, 2> lms_arr(extents[lms][m]);

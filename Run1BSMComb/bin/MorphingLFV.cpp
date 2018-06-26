@@ -233,8 +233,11 @@ int main(int argc, char** argv) {
   //! [part3]
   //};
   cout << " done\n";
-
-
+  
+  cb.cp().signals().ForEachProc([&](ch::Process *proc) {
+      proc->set_rate(std::roundf(((proc->rate())*10000.0))/10000.0 );
+        
+    });
   ///we don't need it, the processed masses are already correctly scaled
   // cout << "Scaling signal process rates for acceptance...\n";
   // //for (string e : {"8TeV"}) {
@@ -303,7 +306,7 @@ int main(int argc, char** argv) {
   }
   demo.Close();
   cb.AddWorkspace(ws);
-  cb.cp().process({"LFV"}).ExtractPdfs(cb, "LFV", "$BIN_$PROCESS_morph");
+  cb.cp().process({"LFV"}).ExtractPdfs(cb, "LFV$MASS", "$BIN_$PROCESS_morph");
   cb.PrintAll();
   cout << "done\n";
   //! [part4]
