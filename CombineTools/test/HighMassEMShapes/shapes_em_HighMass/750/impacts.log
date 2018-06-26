@@ -1,0 +1,2010 @@
+Have POIs: ['r']
+Have nuisance parameters: 112
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  CMS_eff_e :   +0.000  -0.977/+0.977  +0.022/-0.022
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter  :   Best-fit               r            
+  CMS_eff_mu :   +0.000  -0.977/+0.977  +0.022/-0.022
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                       :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_DY_bin_15 :   +0.000  -0.971/+0.973  +0.006/-0.005
+Done in 0.11 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                               :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_11 :   +0.000  -0.994/+0.469  +0.000/+0.005
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                               :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_33 :   +0.000  -0.963/+0.939  -0.002/+0.002
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+Error: minimization failed at CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_35 = 0.825
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                               :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_35 :   +0.000  -0.994/+0.000[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  -0.000/+0.000
+Done in 0.09 min (cpu), 0.09 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_13 :   +0.000  -0.994/+0.603  +0.000/+0.000
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_14 :   +0.000  -0.994/+0.774  +0.000/+0.010
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_16 :   +0.000  -0.833/+0.868  -0.003/+0.003
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_17 :   +0.000  -0.994/+0.821  +0.000/+0.001
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_18 :   +0.000  -0.994/+0.776  +0.000/+0.002
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_19 :   +0.000  -0.865/+0.833  -0.005/+0.005
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_20 :   +0.000  -0.729/+0.937  +0.002/-0.004
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_21 :   +0.000  -0.994/+0.753  +0.000/+0.004
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_22 :   +0.000  -0.994/+0.826  +0.000/-0.001
+Done in 0.11 min (cpu), 0.11 min (real)
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_eff_e --algo impact --redefineSignalPOIs r -P CMS_eff_e --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_eff_mu --algo impact --redefineSignalPOIs r -P CMS_eff_mu --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_DY_bin_15 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_DY_bin_15 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_11 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_11 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_33 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_33 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_35 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_EWKDiboson_bin_35 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_13 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_13 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_14 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_14 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_16 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_16 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_17 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_17 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_18 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_18 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_19 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_19 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_20 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_20 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_21 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_21 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_22 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_22 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_23 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_23 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --r <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_23 :   +0.000  -0.994/+0.789  +0.000/-0.003
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_24 :   +0.000  -0.994/+0.718  +0.000/-0.012
+Done in 0.13 min (cpu), 0.13 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_25 :   +0.000  -0.994/+0.752  +0.000/-0.222
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_27 :   +0.000  -0.994/+0.709  +0.000/-0.013
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_28 :   +0.000  -0.994/+0.663  +0.000/+0.000
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_29 :   +0.000  -0.994/+0.580  +0.000/-0.004
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_30 :   +0.000  -0.994/+0.551  +0.000/-0.002
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_31 :   +0.000  -0.994/+0.561  +0.000/+0.001
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_QCD_bin_32 :   +0.000  -0.994/+0.598  +0.000/-0.000
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                      :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_W_bin_26 :   +0.000  -0.853/+0.947  +0.116/-0.052
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                      :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_W_bin_34 :   +0.000  -0.704/+0.905  -0.002/+0.033
+Done in 0.13 min (cpu), 0.13 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                          :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_ttbar_bin_12 :   +0.000  -0.911/+0.934[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  -0.002/+0.004
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                          :   Best-fit               r            
+  CMS_lfv_em_0jet_13TeV_ttbar_bin_15 :   +0.000  -0.932/+0.946  -0.007/+0.005
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                       :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_DY_bin_16 :   +0.000  -0.994/+0.956  +0.000/+0.001
+Done in 0.09 min (cpu), 0.09 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                               :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_10 :   +0.000  -0.994/+0.907  -0.000/+0.001
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                               :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_11 :   +0.000  -0.994/+0.755  +0.000/+0.006
+Done in 0.12 min (cpu), 0.12 min (real)
+Max=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_24 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_24 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_25 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_25 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_27 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_27 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_28 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_28 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_29 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_29 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_30 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_30 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_31 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_31 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_QCD_bin_32 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_QCD_bin_32 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_W_bin_26 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_W_bin_26 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_W_bin_34 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_W_bin_34 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_ttbar_bin_12 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_ttbar_bin_12 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_0jet_13TeV_ttbar_bin_15 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_0jet_13TeV_ttbar_bin_15 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_DY_bin_16 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_DY_bin_16 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_10 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_10 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_11 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_11 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_28 --algo <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                               :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_28 :   +0.000  -0.931/+0.952  -0.001/+0.003
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                               :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_34 :   +0.000  -0.931/+0.950  -0.005/+0.004
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                               :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_35 :   +0.000  -0.919/+0.953  +0.003/+0.002
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                              :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_9 :   +0.000  -0.994/+0.919  -0.001/+0.001
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_12 :   +0.000  -0.994/+0.640  +0.000/+0.005
+Done in 0.09 min (cpu), 0.09 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_14 :   +0.000  -0.994/+0.822  +0.000/+0.005
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_15 :   +0.000  -0.872/+0.864  -0.011/+0.012
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_16 :   +0.000  -0.994/+0.865  +0.000/+0.008
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_17 :   +0.000  -0.994/+0.830  +0.000/+0.003
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_18 :   +0.000  -0.994/+0.835  +0.000/+0.009
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_19 :   +0.000  -0.994/+0.845  +0.000/+0.001
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_20 :   +0.000  -0.772/+0.910  -0.016/+0.009
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_21 :   +0.000  -0.994/+0.849  +0.000/+0.009
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_22 :   +0.000  -0.793/+0.888  -0.009/+0.007
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_24 :   +0.000  -0.994/+0.771  +0.000/-0.006
+Done in 0.10 min (cpu), 0.10 min (real)
+ impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_28 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_34 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_34 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_35 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_35 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_9 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_EWKDiboson_bin_9 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_12 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_12 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_14 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_14 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_15 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_15 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_16 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_16 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_17 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_17 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_18 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_18 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_19 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_19 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_20 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_20 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_21 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_21 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_22 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_22 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_24 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_24 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_25 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_25 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_25 :   +0.000  -0.987/+0.974  +0.025/-0.043
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_26 :   +0.000  -0.994/+0.743  +0.000/-0.164
+Done in 0.13 min (cpu), 0.13 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_27 :   +0.000  -0.994/+0.632  +0.000/-0.011
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_29 :   +0.000  -0.994/+0.719  +0.000/+0.001
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_31 :   +0.000  -0.994/+0.626  +0.000/+0.003
+Done in 0.13 min (cpu), 0.13 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                        :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_QCD_bin_32 :   +0.000  -0.994/+0.697  +0.000/+0.004
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                      :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_W_bin_23 :   +0.000  -0.883/+0.965  -0.001/+0.000
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                          :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_ttbar_bin_13 :   +0.000  -0.893/+0.918  -0.002/+0.004
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                          :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_ttbar_bin_23 :   +0.000  -0.913/+0.933  -0.005/+0.005
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                          :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_ttbar_bin_25 :   +0.000  -0.929/+0.944  +0.094/-0.073
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                          :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_ttbar_bin_28 :   +0.000  -0.941/+0.949  +0.001/+0.001
+Done in 0.10 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                          :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_ttbar_bin_30 :   +0.000  -0.994/+0.744  +0.000/+0.003
+Done in 0.14 min (cpu), 0.14 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                          :   Best-fit               r            
+  CMS_lfv_em_1jet_13TeV_ttbar_bin_33 :   +0.000  -0.895/+0.919  -0.004/+0.002
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter      :   Best-fit               r            
+  CMS_lumi_13TeV :   +0.000  -0.968/+0.967  +0.027/-0.027
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  EES       :   +0.000  -0.862/+0.785  +0.013/-0.039
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  EESPhi    :   +0.000  -0.420/+0.994  -0.010/+0.000
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  EESRho    :   +0.000  -0.439/+0.423  +0.006/+0.036
+Done in 0.12 min (cpu), 0.12 min (real)
+ -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_26 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_26 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_27 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_27 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_29 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_29 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_31 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_31 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_QCD_bin_32 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_QCD_bin_32 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_W_bin_23 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_W_bin_23 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_ttbar_bin_13 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_ttbar_bin_13 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_ttbar_bin_23 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_ttbar_bin_23 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_ttbar_bin_25 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_ttbar_bin_25 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_ttbar_bin_28 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_ttbar_bin_28 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_ttbar_bin_30 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_ttbar_bin_30 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lfv_em_1jet_13TeV_ttbar_bin_33 --algo impact --redefineSignalPOIs r -P CMS_lfv_em_1jet_13TeV_ttbar_bin_33 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_CMS_lumi_13TeV --algo impact --redefineSignalPOIs r -P CMS_lumi_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_EES --algo impact --redefineSignalPOIs r -P EES --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_EESPhi --algo impact --redefineSignalPOIs r -P EESPhi --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_EESRho --algo impact --redefineSignalPOIs r -P EESRho --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit  <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  MES       :   +0.000  -0.989/+0.987  -0.014/+0.007
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter      :   Best-fit               r            
+  PU_Uncertainty :   +0.000  -0.839/+0.879  +0.028/-0.024
+Done in 0.09 min (cpu), 0.09 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter    :   Best-fit               r            
+  TheoHPDF_750 :   +0.000  -0.994/+0.994  +0.000/+0.000
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  TheoH_750 :   +0.000  -0.994/+0.994  +0.000/+0.000
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  btagVeto  :   +0.000  -0.986/+0.986  +0.007/-0.007
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter          :   Best-fit               r            
+  jesAbsoluteFlavMap :   +0.000  -0.994/+0.994  +0.000/+0.000
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter          :   Best-fit               r            
+  jesAbsoluteMPFBias :   +0.000  -0.956/+0.921  +0.003/-0.013
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter        :   Best-fit               r            
+  jesAbsoluteScale :   +0.000  -0.966/+0.962  +0.003/-0.000
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter       :   Best-fit               r            
+  jesAbsoluteStat :   +0.000  -0.983/+0.908  +0.009/+0.010
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter    :   Best-fit               r            
+  jesFlavorQCD :   +0.000  -0.756/+0.892  +0.011/-0.020
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter        :   Best-fit               r            
+  jesFragmentation :   +0.000  -0.942/+0.990  +0.002/+0.010
+Done in 0.11 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter       :   Best-fit               r            
+  jesPileUpDataMC :   +0.000  -0.826/+0.931  -0.000/-0.009
+Done in 0.10 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter     :   Best-fit               r            
+  jesPileUpPtBB :   +0.000  -0.930/+0.891  +0.007/+0.017
+Done in 0.11 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter      :   Best-fit               r            
+  jesPileUpPtEC1 :   +0.000  -0.890/+0.884  +0.013/+0.002
+Done in 0.12 min (cpu), 0.13 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter      :   Best-fit               r            
+  jesPileUpPtEC2 :   +0.000  -0.887/+0.901  -0.001/-0.012
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter     :   Best-fit               r            
+  jesPileUpPtHF :   +0.000  -0.853/+0.931  +0.001/-0.011
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter      :   Best-fit               r            
+  jesPileUpPtRef :   +0.000  -0.902/+0.840  +0.002/-0.017
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter      :   Best-fit               r            
+  jesRelativeBal :   +0.000  -0.649/+0.697  -0.011/+0.003
+Done in 0.12 min (cpu), 0.12 min (real)
+-n _paramFit_combined_MES --algo impact --redefineSignalPOIs r -P MES --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_PU_Uncertainty --algo impact --redefineSignalPOIs r -P PU_Uncertainty --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_TheoHPDF_750 --algo impact --redefineSignalPOIs r -P TheoHPDF_750 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_TheoH_750 --algo impact --redefineSignalPOIs r -P TheoH_750 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_btagVeto --algo impact --redefineSignalPOIs r -P btagVeto --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesAbsoluteFlavMap --algo impact --redefineSignalPOIs r -P jesAbsoluteFlavMap --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesAbsoluteMPFBias --algo impact --redefineSignalPOIs r -P jesAbsoluteMPFBias --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesAbsoluteScale --algo impact --redefineSignalPOIs r -P jesAbsoluteScale --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesAbsoluteStat --algo impact --redefineSignalPOIs r -P jesAbsoluteStat --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesFlavorQCD --algo impact --redefineSignalPOIs r -P jesFlavorQCD --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesFragmentation --algo impact --redefineSignalPOIs r -P jesFragmentation --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesPileUpDataMC --algo impact --redefineSignalPOIs r -P jesPileUpDataMC --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesPileUpPtBB --algo impact --redefineSignalPOIs r -P jesPileUpPtBB --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesPileUpPtEC1 --algo impact --redefineSignalPOIs r -P jesPileUpPtEC1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesPileUpPtEC2 --algo impact --redefineSignalPOIs r -P jesPileUpPtEC2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesPileUpPtHF --algo impact --redefineSignalPOIs r -P jesPileUpPtHF --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesPileUpPtRef --algo impact --redefineSignalPOIs r -P jesPileUpPtRef --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativeBal --algo impact --redefineSignalPOIs r -P jesRelativeBal --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativeFSR --algo impact --red <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter      :   Best-fit               r            
+  jesRelativeFSR :   +0.000  -0.963/+0.787  -0.005/+0.005
+Done in 0.13 min (cpu), 0.13 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter         :   Best-fit               r            
+  jesRelativeJEREC1 :   +0.000  -0.993/+0.994  -0.000/+0.007
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter         :   Best-fit               r            
+  jesRelativeJEREC2 :   +0.000  -0.993/+0.994  -0.000/+0.000
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter        :   Best-fit               r            
+  jesRelativeJERHF :   +0.000  -0.994/+0.993  +0.000/+0.007
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter       :   Best-fit               r            
+  jesRelativePtBB :   +0.000  -0.879/+0.970  +0.002/-0.007
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter        :   Best-fit               r            
+  jesRelativePtEC1 :   +0.000  -0.891/+0.773  +0.005/+0.017
+Done in 0.13 min (cpu), 0.13 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter        :   Best-fit               r            
+  jesRelativePtEC2 :   +0.000  -0.900/+0.920  -0.002/-0.010
+Done in 0.09 min (cpu), 0.09 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter       :   Best-fit               r            
+  jesRelativePtHF :   +0.000  -0.799/+0.893  -0.007/+0.030
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter         :   Best-fit               r            
+  jesRelativeStatEC :   +0.000  -0.915/+0.924  +0.004/+0.014
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter          :   Best-fit               r            
+  jesRelativeStatFSR :   +0.000  -0.994/+0.985  -0.000/+0.008
+Done in 0.12 min (cpu), 0.13 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter         :   Best-fit               r            
+  jesRelativeStatHF :   +0.000  -0.951/+0.981  +0.004/-0.005
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter         :   Best-fit               r            
+  jesSinglePionECAL :   +0.000  -0.986/+0.942  -0.007/+0.002
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter         :   Best-fit               r            
+  jesSinglePionHCAL :   +0.000  -0.988/+0.899  -0.005/+0.005
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter    :   Best-fit               r            
+  jesTimePtEta :   +0.000  -0.968/+0.986  +0.000/-0.006
+Done in 0.13 min (cpu), 0.13 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter    :   Best-fit               r            
+  norm_Diboson :   +0.000  -0.981/+0.979  +0.023/-0.026
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter         :   Best-fit               r            
+  norm_Diboson_0jet :   +0.000  -0.984/+0.983  +0.013/-0.016
+Done in 0.10 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter         :   Best-fit               r            
+  norm_Diboson_1jet :   +0.000  -0.988/+0.988  +0.009/-0.009
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  norm_QCD  :   +0.000  -0.900/+0.900  +0.003/-0.018
+Done in 0.12 min (cpu), 0.12 min (real)
+efineSignalPOIs r -P jesRelativeFSR --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativeJEREC1 --algo impact --redefineSignalPOIs r -P jesRelativeJEREC1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativeJEREC2 --algo impact --redefineSignalPOIs r -P jesRelativeJEREC2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativeJERHF --algo impact --redefineSignalPOIs r -P jesRelativeJERHF --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativePtBB --algo impact --redefineSignalPOIs r -P jesRelativePtBB --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativePtEC1 --algo impact --redefineSignalPOIs r -P jesRelativePtEC1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativePtEC2 --algo impact --redefineSignalPOIs r -P jesRelativePtEC2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativePtHF --algo impact --redefineSignalPOIs r -P jesRelativePtHF --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativeStatEC --algo impact --redefineSignalPOIs r -P jesRelativeStatEC --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativeStatFSR --algo impact --redefineSignalPOIs r -P jesRelativeStatFSR --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesRelativeStatHF --algo impact --redefineSignalPOIs r -P jesRelativeStatHF --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesSinglePionECAL --algo impact --redefineSignalPOIs r -P jesSinglePionECAL --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesSinglePionHCAL --algo impact --redefineSignalPOIs r -P jesSinglePionHCAL --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_jesTimePtEta --algo impact --redefineSignalPOIs r -P jesTimePtEta --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_norm_Diboson --algo impact --redefineSignalPOIs r -P norm_Diboson --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_norm_Diboson_0jet --algo impact --redefineSignalPOIs r -P norm_Diboson_0jet --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_norm_Diboson_1jet --algo impact --redefineSignalPOIs r -P norm_Diboson_1jet --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_norm_QCD --algo impact --redefineSignalPOIs r -P norm_QCD --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -t -1 --rMax=2. --rMin=-2. -m 750 -d lfv_em_13TeV.root
+>> combine -M MultiDimFit -n _paramFit_combined_norm_T --a <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  norm_T    :   +0.000  -0.992/+0.992  +0.006/-0.007
+Done in 0.07 min (cpu), 0.07 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  norm_TT   :   +0.000  -0.981/+0.978  +0.014/-0.017
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter    :   Best-fit               r            
+  norm_TT_0jet :   +0.000  -0.985/+0.984  +0.008/-0.008
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter    :   Best-fit               r            
+  norm_TT_1jet :   +0.000  -0.975/+0.974  +0.009/-0.009
+Done in 0.09 min (cpu), 0.09 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter   :   Best-fit               r            
+  norm_T_0jet :   +0.000  -0.994/+0.993[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/-0.001
+Done in 0.09 min (cpu), 0.09 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter   :   Best-fit               r            
+  norm_T_1jet :   +0.000  -0.992/+0.992  +0.005/-0.006
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  norm_z    :   +0.000  -0.991/+0.990[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  -0.000/+0.000
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter   :   Best-fit               r            
+  norm_z_0jet :   +0.000  -0.994/+0.994  +0.000/-0.000
+Done in 0.09 min (cpu), 0.09 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter   :   Best-fit               r            
+  norm_z_1jet :   +0.000  -0.994/+0.994  +0.000/-0.000
+Done in 0.10 min (cpu), 0.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter  :   Best-fit               r            
+  uesCharged :   +0.000  -0.931/+0.876  -0.020/+0.011
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  uesEcal   :   +0.000  -0.935/+0.972  +0.005/+0.000
+Done in 0.11 min (cpu), 0.11 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  uesHF     :   +0.000  -0.553/+0.497  +0.036/-0.058
+Done in 0.12 min (cpu), 0.12 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+RooArgSet:: = (r)
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 112
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  uesHcal   :   +0.000  -0.635/+0.618  +0.011/+0.024
+Done in 0.13 min (cpu), 0.13 min (real)
