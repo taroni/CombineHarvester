@@ -1,0 +1,71 @@
+Low mass, 0 jet, bkg only, m=200
+ --- FitDiagnostics ---
+Best fit r: 0.00427494  -0.00427494/+3.33889  (68% CL)
+
+Low mass, 0 jet, sig+bkg, m=200
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+0.214899  (68% CL)
+
+Low mass, 1 jet, bkg only, m=200
+ --- FitDiagnostics ---
+Best fit r: 0.00681152  -0.00681152/+3.85526  (68% CL)
+
+Low mass, 1 jet, sig+bkg, m=200
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+0.22936  (68% CL)
+
+Low mass, combined, bkg only, m=200
+ --- FitDiagnostics ---
+Best fit r: 0.00279882  -0.00279882/+3.43656  (68% CL)
+
+Low mass, combined, sig+bkg, m=200
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+0.149408  (68% CL)
+
+Low mass, 0 jet, bkg only, m=300
+ --- FitDiagnostics ---
+Best fit r: 0.00790114  -0.00790114/+0.846793  (68% CL)
+
+Low mass, 0 jet, sig+bkg, m=300
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+0.217464  (68% CL)
+
+Low mass, 1 jet, bkg only, m=300
+ --- FitDiagnostics ---
+Best fit r: 0.0139923  -0.0139923/+3.21815  (68% CL)
+
+Low mass, 1 jet, sig+bkg, m=300
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+0.384878  (68% CL)
+
+Low mass, combined, bkg only, m=300
+ --- FitDiagnostics ---
+Best fit r: 0.00290325  -0.00290325/+3.21981  (68% CL)
+
+Low mass, combined, sig+bkg, m=300
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+0.175151  (68% CL)
+
+Low mass, 0 jet, bkg only, m=450
+ --- FitDiagnostics ---
+Best fit r: 0.0068732  -0.0068732/+3.09119  (68% CL)
+
+Low mass, 0 jet, sig+bkg, m=450
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+0.270284  (68% CL)
+
+Low mass, 1 jet, bkg only, m=450
+ --- FitDiagnostics ---
+Best fit r: 0.0144625  -0.0144625/+3.23324  (68% CL)
+
+Low mass, 1 jet, sig+bkg, m=450
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+0.316021  (68% CL)
+
+Low mass, combined, bkg only, m=450
+ --- FitDiagnostics ---
+Best fit r: 0.00692461  -0.00692461/+0.986481  (68% CL)
+
+Low mass, combined, sig+bkg, m=450
+ --- FitDiagnostics ---
+Best fit r: 1  -1/+0.227528  (68% CL)

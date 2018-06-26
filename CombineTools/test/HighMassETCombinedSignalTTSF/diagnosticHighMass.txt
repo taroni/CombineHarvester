@@ -1,0 +1,95 @@
+High mass, 0 jet, bkg only, m=450
+ --- FitDiagnostics ---
+Best fit r: 0.00591906  -0.00591906/+3.34694  (68% CL)
+
+High mass, 0 jet, sig+bkg, m=450
+ --- FitDiagnostics ---
+Best fit r: 1  -0.257172/+0.268945  (68% CL)
+
+High mass, 1 jet, bkg only, m=450
+ --- FitDiagnostics ---
+Best fit r: 0.00430266  -0.00430266/+0.292039  (68% CL)
+
+High mass, 1 jet, sig+bkg, m=450
+ --- FitDiagnostics ---
+Best fit r: 1  -0.361689/+0.380547  (68% CL)
+
+High mass, combined, bkg only, m=450
+ --- FitDiagnostics ---
+Best fit r: 0.00603456  -0.00603456/+0.153565  (68% CL)
+
+High mass, combined, sig+bkg, m=450
+ --- FitDiagnostics ---
+Best fit r: 1  -0.21606/+0.225168  (68% CL)
+
+High mass, 0 jet, bkg only, m=600
+ --- FitDiagnostics ---
+Best fit r: 0.00716776  -0.00716776/+3.77646  (68% CL)
+
+High mass, 0 jet, sig+bkg, m=600
+ --- FitDiagnostics ---
+Best fit r: 1  -0.37019/+0.388978  (68% CL)
+
+High mass, 1 jet, bkg only, m=600 
+ --- FitDiagnostics ---
+Best fit r: 0.0132821  -0.0132821/+0.354123  (68% CL)
+
+High mass, 1 jet, sig+bkg, m=600
+ --- FitDiagnostics ---
+Best fit r: 1  -0.434225/+0.489151  (68% CL)
+
+High mss, combined, bkg only, m=600
+ --- FitDiagnostics ---
+Best fit r: 0.00170545  -0.00170545/+0.213833  (68% CL)
+
+High mass, combined, sig+bkg, m=600
+ --- FitDiagnostics ---
+Best fit r: 1  -0.288275/+0.305464  (68% CL)
+
+High mass, 0 jet, bkg only, m=750
+ --- FitDiagnostics ---
+Best fit r: 0.00813981  -0.00813981/+0.268215  (68% CL)
+
+High mass, 0 jet, sig+bkg, m=750
+ --- FitDiagnostics ---
+Best fit r: 1  -0.42579/+0.503981  (68% CL)
+
+High mass, 1 jet, bkg only, m=750
+ --- FitDiagnostics ---
+Best fit r: 0.0109469  -0.0109469/+0.455118  (68% CL)
+
+High mass, 1 jet, sig+bkg, m=750
+ --- FitDiagnostics ---
+Best fit r: 1  -0.552872/+0.626372  (68% CL)
+
+High mass, combined, bkg only, m=750
+ --- FitDiagnostics ---
+Best fit r: 0.00547111  -0.00547111/+0.223821  (68% CL)
+
+High mass, combined, sig+bkg, m=750
+ --- FitDiagnostics ---
+Best fit r: 1  -0.346273/+0.389142  (68% CL)
+
+High mass, 0 jet, bkg only, m=900
+ --- FitDiagnostics ---
+Best fit r: 0.000174652  -0.000174652/+0.352511  (68% CL)
+
+High mass, 0 jet, sig+bkg, m=900
+ --- FitDiagnostics ---
+Best fit r: 1  -0.557731/+0.705609  (68% CL)
+
+High mass, 1 jet, bkg only, m=900
+ --- FitDiagnostics ---
+Best fit r: 8.67192e-06  -8.67192e-06/+0.30569  (68% CL)
+
+High mass, 1 jet, sig+bkg, m=900
+ --- FitDiagnostics ---
+Best fit r: 1  -0.553177/+0.760158  (68% CL)
+
+High mass, combined, bkg only, m=900
+ --- FitDiagnostics ---
+Best fit r: 3.32324e-07  -3.32324e-07/+0.187143  (68% CL)
+
+High mass, combined, sig+bkg, m=900
+ --- FitDiagnostics ---
+Best fit r: 1  -0.4159/+0.502273  (68% CL)

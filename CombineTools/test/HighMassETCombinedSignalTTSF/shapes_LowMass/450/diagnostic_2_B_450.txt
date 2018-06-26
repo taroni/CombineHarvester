@@ -1,0 +1,12 @@
+ <<< Combine >>> 
+ WARNING --  From combine v7, method MaxLikelihoodFit has been renamed to FitDiagnostics
+>>> including systematics
+>>> method used is MaxLikelihoodFit
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 65
+Constraints of type SimpleGaussianConstraint: 65
+
+ --- FitDiagnostics ---
+Best fit r: 0.0133602  -0.0133602/+3.09503  (68% CL)
+Done in 0.07 min (cpu), 0.07 min (real)

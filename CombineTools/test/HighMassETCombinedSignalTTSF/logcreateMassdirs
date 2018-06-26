@@ -1,0 +1,517 @@
+mv: cannot move `450' to a subdirectory of itself, `450/450'
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+>> pushd .; text2workspace.py -o lfv_13TeV.root -m 450 lfv_13TeV.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+>> pushd .; text2workspace.py -o lfv_2_13TeV_450.root -m 450 lfv_2_13TeV_450.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+>> pushd .; text2workspace.py -o lfv_1_13TeV_450.root -m 450 lfv_1_13TeV_450.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 61
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.1253
+Expected 16.0%: r < 0.1697
+Expected 50.0%: r < 0.2412
+Expected 84.0%: r < 0.3460
+Expected 97.5%: r < 0.4807
+
+Done in 0.48 min (cpu), 0.49 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 450 -d lfv_13TeV.root -n .limit; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 55
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.1511
+Expected 16.0%: r < 0.2054
+Expected 50.0%: r < 0.2930
+Expected 84.0%: r < 0.4249
+Expected 97.5%: r < 0.5942
+
+Done in 0.19 min (cpu), 0.19 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 450 -d lfv_1_13TeV_450.root -n .limit1; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 56
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2286
+Expected 16.0%: r < 0.3091
+Expected 50.0%: r < 0.4434
+Expected 84.0%: r < 0.6484
+Expected 97.5%: r < 0.9135
+
+Done in 0.19 min (cpu), 0.19 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 450 -d lfv_2_13TeV_450.root -n .limit2; popd
+mv: cannot move `600' to a subdirectory of itself, `600/600'
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+>> pushd .; text2workspace.py -o lfv_13TeV.root -m 600 lfv_13TeV.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+>> pushd .; text2workspace.py -o lfv_2_13TeV_600.root -m 600 lfv_2_13TeV_600.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+>> pushd .; text2workspace.py -o lfv_1_13TeV_600.root -m 600 lfv_1_13TeV_600.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 61
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.1875
+Expected 16.0%: r < 0.2556
+Expected 50.0%: r < 0.3691
+Expected 84.0%: r < 0.5413
+Expected 97.5%: r < 0.7661
+
+Done in 0.39 min (cpu), 0.39 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 600 -d lfv_13TeV.root -n .limit; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 55
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2334
+Expected 16.0%: r < 0.3191
+Expected 50.0%: r < 0.4668
+Expected 84.0%: r < 0.6938
+Expected 97.5%: r < 0.9971
+
+Done in 0.18 min (cpu), 0.19 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 56
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.3398
+Expected 16.0%: r < 0.4673
+Expected 50.0%: r < 0.6797
+Expected 84.0%: r < 1.0075
+Expected 97.5%: r < 1.4420
+
+Done in 0.17 min (cpu), 0.17 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 600 -d lfv_2_13TeV_600.root -n .limit2; popd
+mv: cannot move `750' to a subdirectory of itself, `750/750'
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+>> pushd .; text2workspace.py -o lfv_13TeV.root -m 750 lfv_13TeV.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+>> pushd .; text2workspace.py -o lfv_2_13TeV_750.root -m 750 lfv_2_13TeV_750.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+>> pushd .; text2workspace.py -o lfv_1_13TeV_750.root -m 750 lfv_1_13TeV_750.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 61
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2234
+Expected 16.0%: r < 0.3135
+Expected 50.0%: r < 0.4688
+Expected 84.0%: r < 0.7154
+Expected 97.5%: r < 1.0510
+
+Done in 0.40 min (cpu), 0.41 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 750 -d lfv_13TeV.root -n .limit; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 55
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2850
+Expected 16.0%: r < 0.4086
+Expected 50.0%: r < 0.6289
+Expected 84.0%: r < 0.9924
+Expected 97.5%: r < 1.5027
+
+Done in 0.17 min (cpu), 0.17 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 750 -d lfv_1_13TeV_750.root -n .limit1; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 56
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.4129
+Expected 16.0%: r < 0.5768
+Expected 50.0%: r < 0.8594
+Expected 84.0%: r < 1.3081
+Expected 97.5%: r < 1.9301
+
+Done in 0.22 min (cpu), 0.22 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 750 -d lfv_2_13TeV_750.root -n .limit2; popd
+mv: cannot move `900' to a subdirectory of itself, `900/900'
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+>> pushd .; text2workspace.py -o lfv_13TeV.root -m 900 lfv_13TeV.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+>> pushd .; text2workspace.py -o lfv_2_13TeV_900.root -m 900 lfv_2_13TeV_900.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+>> pushd .; text2workspace.py -o lfv_1_13TeV_900.root -m 900 lfv_1_13TeV_900.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 61
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2043
+Expected 16.0%: r < 0.3241
+Expected 50.0%: r < 0.5449
+Expected 84.0%: r < 0.9185
+Expected 97.5%: r < 1.4551
+
+Done in 0.37 min (cpu), 0.37 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 900 -d lfv_13TeV.root -n .limit; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 55
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.3951
+Expected 16.0%: r < 0.5982
+Expected 50.0%: r < 0.9727
+Expected 84.0%: r < 1.6162
+Expected 97.5%: r < 2.5490
+
+Done in 0.17 min (cpu), 0.18 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 900 -d lfv_1_13TeV_900.root -n .limit1; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 56
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.3221
+Expected 16.0%: r < 0.5229
+Expected 50.0%: r < 0.9062
+Expected 84.0%: r < 1.5709
+Expected 97.5%: r < 2.5429
+
+Done in 0.19 min (cpu), 0.19 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 900 -d lfv_2_13TeV_900.root -n .limit2; popd
+>> Writing output limits_default.json from files:
+[ '450/higgsCombine.limit.AsymptoticLimits.mH450.root',
+  '600/higgsCombine.limit.AsymptoticLimits.mH600.root',
+  '750/higgsCombine.limit.AsymptoticLimits.mH750.root',
+  '900/higgsCombine.limit.AsymptoticLimits.mH900.root']
+>> Writing output limits2_default.json from files:
+[ '450/higgsCombine.limit2.AsymptoticLimits.mH450.root',
+  '600/higgsCombine.limit2.AsymptoticLimits.mH600.root',
+  '750/higgsCombine.limit2.AsymptoticLimits.mH750.root',
+  '900/higgsCombine.limit2.AsymptoticLimits.mH900.root']
+>> Writing output limits1_default.json from files:
+[ '450/higgsCombine.limit1.AsymptoticLimits.mH450.root',
+  '600/higgsCombine.limit1.AsymptoticLimits.mH600.root',
+  '750/higgsCombine.limit1.AsymptoticLimits.mH750.root',
+  '900/higgsCombine.limit1.AsymptoticLimits.mH900.root']
+Info in <TCanvas::Print>: pdf file ./limit.pdf has been created
+Info in <TCanvas::Print>: png file ./limit.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ./limit.root has been created
+current dir 1 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+current dir 2 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+current dir /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/450
+current dir 1 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+current dir 2 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+current dir /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/600
+current dir 1 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+current dir 2 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+current dir /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/750
+current dir 1 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+current dir 2 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+current dir /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_HighMass/900
+current dir 1 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass
+current dir 2 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHamv: cannot move `200' to a subdirectory of itself, `200/200'
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+>> pushd .; text2workspace.py -o lfv_13TeV.root -m 200 lfv_13TeV.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+>> pushd .; text2workspace.py -o lfv_2_13TeV_200.root -m 200 lfv_2_13TeV_200.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+>> pushd .; text2workspace.py -o lfv_1_13TeV_200.root -m 200 lfv_1_13TeV_200.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 61
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2158
+Expected 16.0%: r < 0.2879
+Expected 50.0%: r < 0.4004
+Expected 84.0%: r < 0.5616
+Expected 97.5%: r < 0.7538
+
+Done in 0.58 min (cpu), 0.58 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 200 -d lfv_13TeV.root -n .limit; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 55
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2453
+Expected 16.0%: r < 0.3273
+Expected 50.0%: r < 0.4551
+Expected 84.0%: r < 0.6401
+Expected 97.5%: r < 0.8638
+
+Done in 0.25 min (cpu), 0.25 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 56
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.4801
+Expected 16.0%: r < 0.6405
+Expected 50.0%: r < 0.8906
+Expected 84.0%: r < 1.2492
+Expected 97.5%: r < 1.6823
+
+Done in 0.27 min (cpu), 0.27 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+mv: cannot move `300' to a subdirectory of itself, `300/300'
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+>> pushd .; text2workspace.py -o lfv_13TeV.root -m 300 lfv_13TeV.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+>> pushd .; text2workspace.py -o lfv_1_13TeV_300.root -m 300 lfv_1_13TeV_300.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 61
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.1934
+Expected 16.0%: r < 0.2577
+Expected 50.0%: r < 0.3613
+Expected 84.0%: r < 0.5097
+Expected 97.5%: r < 0.6915
+
+Done in 0.59 min (cpu), 0.59 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 300 -d lfv_13TeV.root -n .limit; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 55
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2189
+Expected 16.0%: r < 0.2929
+Expected 50.0%: r < 0.4121
+Expected 84.0%: r < 0.5813
+Expected 97.5%: r < 0.7913
+
+Done in 0.21 min (cpu), 0.21 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 56
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.4119
+Expected 16.0%: r < 0.5539
+Expected 50.0%: r < 0.7754
+Expected 84.0%: r < 1.0999
+Expected 97.5%: r < 1.4979
+
+Done in 0.26 min (cpu), 0.26 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 300 -d lfv_2_13TeV_300.root -n .limit2; popd
+mv: cannot move `450' to a subdirectory of itself, `450/450'
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+>> pushd .; text2workspace.py -o lfv_2_13TeV_450.root -m 450 lfv_2_13TeV_450.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+>> pushd .; text2workspace.py -o lfv_1_13TeV_450.root -m 450 lfv_1_13TeV_450.txt; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 61
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2055
+Expected 16.0%: r < 0.2771
+Expected 50.0%: r < 0.3926
+Expected 84.0%: r < 0.5600
+Expected 97.5%: r < 0.7704
+
+Done in 0.53 min (cpu), 0.53 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 450 -d lfv_13TeV.root -n .limit; popd
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 55
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.2382
+Expected 16.0%: r < 0.3212
+Expected 50.0%: r < 0.4551
+Expected 84.0%: r < 0.6564
+Expected 97.5%: r < 0.9093
+
+Done in 0.24 min (cpu), 0.24 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+ <<< Combine >>> 
+>>> including systematics
+>>> method used is AsymptoticLimits
+>>> random number generator seed is 123456
+Computing results starting from expected outcome (a-priori)
+Constraints of type SimpleGaussianConstraint: 56
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.4253
+Expected 16.0%: r < 0.5735
+Expected 50.0%: r < 0.8125
+Expected 84.0%: r < 1.1623
+Expected 97.5%: r < 1.6069
+
+Done in 0.34 min (cpu), 0.34 min (real)
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+>> pushd .; combine --run expected -C 0.95 -t -1 -M AsymptoticLimits -m 450 -d lfv_2_13TeV_450.root -n .limit2; popd
+>> Writing output limits_default.json from files:
+[ '200/higgsCombine.limit.AsymptoticLimits.mH200.root',
+  '300/higgsCombine.limit.AsymptoticLimits.mH300.root',
+  '450/higgsCombine.limit.AsymptoticLimits.mH450.root']
+>> Writing output limits2_default.json from files:
+[ '200/higgsCombine.limit2.AsymptoticLimits.mH200.root',
+  '300/higgsCombine.limit2.AsymptoticLimits.mH300.root',
+  '450/higgsCombine.limit2.AsymptoticLimits.mH450.root']
+>> Writing output limits1_default.json from files:
+[ '200/higgsCombine.limit1.AsymptoticLimits.mH200.root',
+  '300/higgsCombine.limit1.AsymptoticLimits.mH300.root',
+  '450/higgsCombine.limit1.AsymptoticLimits.mH450.root']
+TCanvas::Constructor:0: RuntimeWarning: Deleting canvas with same name: limit
+Info in <TCanvas::Print>: pdf file ./limit.pdf has been created
+Info in <TCanvas::Print>: png file ./limit.png has been created
+Info in <TCanvas::SaveAs>: ROOT file ./limit.root has been created
+rvester/CombineTools/test/HighMassETCombined/shapes_LowMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+current dir /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/200
+current dir 1 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass
+current dir 2 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+current dir /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/300
+current dir 1 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass
+current dir 2 /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass
+/afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
+current dir /afs/cern.ch/work/t/taroni/private/CombineForHighMass/CMSSW_8_1_0/src/CombineHarvester/CombineTools/test/HighMassETCombined/shapes_LowMass/450
