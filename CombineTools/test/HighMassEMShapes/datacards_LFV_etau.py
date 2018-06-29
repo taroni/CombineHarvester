@@ -62,11 +62,9 @@ for infile in onlyfiles:
 
     cb.cp().process(sig_procs+mcbkg_procs).AddSyst(cb, "CMS_lumi_13TeV", "lnN", ch.SystMap()(1.025))    # I removed SMH
 
-    cb.cp().bin(["1jet"]).process(["ttbar", "singlet"]).AddSyst(cb, "btagVeto", "lnN", ch.SystMap()(1.025))
+    cb.cp().bin(["1jet"]).process(["ttbar"]).AddSyst(cb, "btagVeto", "lnN", ch.SystMap()(1.0245))
+    cb.cp().bin(["1jet"]).process(["singlet"]).AddSyst(cb, "btagVeto", "lnN", ch.SystMap()(1.0211))
     
-    #cb.cp().process(["LFV"]).AddSyst(cb,"TheoH", "lnN", ch.SystMap()(1.018))
-    #cb.cp().process(["LFV"]).AddSyst(cb,"TheoHPDF", "lnN", ch.SystMap()(1.03))
-
     cb.cp().process(["LFV"]).AddSyst(cb,"TheoH_$MASS", "lnN", ch.SystMap('mass')(["200","300"], 1.018)(["450"],1.02)(["600","750"], 1.021)(["900"],1.022) )
     cb.cp().process(["LFV"]).AddSyst(cb,"TheoHPDF_$MASS", "lnN", ch.SystMap('mass')(["200","300"], 1.03)(["450"],1.031)(["600"], 1.035)(["750"], 1.04)(["900"],1.046) )
 
@@ -80,7 +78,7 @@ for infile in onlyfiles:
 
     cb.cp().process(["EWKDiboson"]).AddSyst(cb,"norm_Diboson_$BIN", "lnN", ch.SystMap()(1.05))
     
-    cb.cp().process(["singlet"]).AddSyst(cb, "norm_TT ", "lnN", ch.SystMap()(1.12))
+    cb.cp().process(["ttbar"]).AddSyst(cb, "norm_TT ", "lnN", ch.SystMap()(1.12))
     
     cb.cp().process(["ttbar"]).AddSyst(cb,"norm_TT_$BIN", "lnN", ch.SystMap()(1.05))
     
@@ -90,9 +88,9 @@ for infile in onlyfiles:
 
     cb.cp().process(["SMH"]).AddSyst(cb,"TheoSMH", "lnN", ch.SystMap()(1.039))
     cb.cp().process(["SMH"]).AddSyst(cb,"TheoSMHPDF", "lnN", ch.SystMap()(1.032))
-    cb.cp().process(["SMH"]).AddSyst(cb,"BR_htt_THU", "lnN", ch.SystMap()(1.017));
-    cb.cp().process(["SMH"]).AddSyst(cb,"BR_htt_PU_mq", "lnN", ch.SystMap()(1.0099));
-    cb.cp().process(["SMH"]).AddSyst(cb,"BR_htt_PU_alphas", "lnN", ch.SystMap()(1.0062));
+    #cb.cp().process(["SMH"]).AddSyst(cb,"BR_htt_THU", "lnN", ch.SystMap()(1.017));
+    #cb.cp().process(["SMH"]).AddSyst(cb,"BR_htt_PU_mq", "lnN", ch.SystMap()(1.0099));
+    #cb.cp().process(["SMH"]).AddSyst(cb,"BR_htt_PU_alphas", "lnN", ch.SystMap()(1.0062));
 
 
     #Systematics
