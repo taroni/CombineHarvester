@@ -127,8 +127,8 @@ for infile in onlyfiles:
     
     #cb.cp().process(["DY"]).AddSyst(cb, "etfakeES", "shape", ch.SystMap()(1.0))
     cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "EES", "shape", ch.SystMap()(1.0))
-    cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "EESPhi", "shape", ch.SystMap()(1.0))
-    cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "EESRho", "shape", ch.SystMap()(1.0))
+    #cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "EESPhi", "shape", ch.SystMap()(1.0))
+    #cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "EESRho", "shape", ch.SystMap()(1.0))
     cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "MES", "shape", ch.SystMap()(1.0))
     
     cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "uesHcal", "shape", ch.SystMap()(1.0))
@@ -145,7 +145,7 @@ for infile in onlyfiles:
 
     if(binbybin):
         bbb = ch.BinByBinFactory()
-        bbb.SetAddThreshold(0.1).SetMergeThreshold(0.5).SetFixNorm(True)
+        bbb.SetAddThreshold(0.1).SetMergeThreshold(0.5).SetFixNorm(False)
         bbb.MergeBinErrors(cb.cp().backgrounds())
         bbb.AddBinByBin(cb.cp().backgrounds(), cb)
     

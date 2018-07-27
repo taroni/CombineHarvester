@@ -2,13 +2,13 @@ import ROOT
 
 ROOT.gROOT.SetBatch(1)
 
-samples = ['EWKDiboson', 'ttbar', 'singlet', 'SMH', 'DY', 'DYTT', 'LFV200', 'W', 'QCD']
-files = ['lfv_em_1_13TeV_200.input.root', 'lfv_em_2_13TeV_200.input.root']
+samples = ['EWKDiboson', 'ttbar', 'singlet', 'SMH', 'DY', 'DYTT', 'fakes', 'LFV200']
+files = ['lfv_et_1_13TeV_200.input.root', 'lfv_et_2_13TeV_200.input.root']
 
 
 canvas=ROOT.TCanvas("d","c", 600, 600)
 canvas.Draw()
-channel='em'
+channel='et'
 category = '1'
 for f in files:
     if 'et' in f: channel='et'
@@ -22,8 +22,6 @@ for f in files:
        
         histolist=[x.GetName() for x in mydir.GetListOfKeys() if sample in x.GetName() and 'Down' in x.GetName() and x.GetName().startswith(sample)]
         for histo in histolist:
-            if 'EESRho' in histo: continue
-            if 'EESPhi' in histo: continue
             leg=ROOT.TLegend(0.45, 0.85, 0.85, 0.7)
 
             canvas.Clear()
@@ -68,36 +66,16 @@ for f in files:
             h1.Sumw2()
             h2.Sumw2()
             hratioUp=h2.Clone()
-            hratioUp.Sumw2()
             hratioUp.Divide(h0.Clone())
             hratioDown=h1.Clone()
-            hratioDown.Sumw2()
             hratioDown.Divide(h0.Clone())
-            hratioUp.Draw("HISTEP")
+            hratioUp.Draw("HISTP")
             hratioUp.SetMarkerStyle(20)
             hratioUp.SetMarkerColor(4)
-            hratioDown.Draw("HISTESAMEP") 
+            hratioDown.Draw("HISTSAMEP") 
             hratioDown.SetMarkerColor(2)
             hratioDown.SetMarkerStyle(20)
-            mymax = max( hratioDown.GetBinContent(hratioDown.GetMaximumBin()), hratioUp.GetBinContent(hratioUp.GetMaximumBin()))
-            mymax = 1.2*min(2, mymax)
-            mymin=1.
-            for ibin in range(0, hratioDown.GetXaxis().GetNbins()):
-                #if hratioDown.GetBinContent(ibin)>0.001:
-                #    print hratioDown.GetBinContent(ibin)
-                #if hratioUp.GetBinContent(ibin)>0.001:
-                #    print hratioUp.GetBinContent(ibin)
-                if hratioDown.GetBinContent(ibin)>0.001 and  hratioDown.GetBinContent(ibin)< mymin: mymin=hratioDown.GetBinContent(ibin)
-                if hratioUp.GetBinContent(ibin)>0.001 and  hratioUp.GetBinContent(ibin)< mymin: mymin=hratioUp.GetBinContent(ibin)
-                
-            #print hratioDown.GetBinContent(hratioDown.GetMinimumBin()), hratioUp.GetBinContent(hratioUp.GetMinimumBin())
-            #print mymin, mymax
-            if mymin!=1.:
-                mymin = 0.8*max(0, mymin)
-            else: mymin=0.8
-            mymin=0.8
-            mymax=1.2
-            hratioUp.GetYaxis().SetRangeUser(mymin, mymax)
+            hratioUp.GetYaxis().SetRangeUser(0., 2)
             line = ROOT.TLine(0, 1, 1500, 1) 
             line.Draw()
             line.SetLineStyle(2)
