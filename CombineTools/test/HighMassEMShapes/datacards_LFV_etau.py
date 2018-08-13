@@ -62,32 +62,35 @@ for infile in onlyfiles:
 
     cb.cp().process(sig_procs+mcbkg_procs).AddSyst(cb, "CMS_lumi_13TeV", "lnN", ch.SystMap()(1.025))    # I removed SMH
 
-    cb.cp().bin(["1jet"]).process(["ttbar"]).AddSyst(cb, "btagVeto", "lnN", ch.SystMap()(1.0245))
-    cb.cp().bin(["1jet"]).process(["singlet"]).AddSyst(cb, "btagVeto", "lnN", ch.SystMap()(1.0211))
+    cb.cp().bin(["1jet"]).process(["ttbar"]).AddSyst(cb, "CMS_btag_veto", "lnN", ch.SystMap()(1.0245))
+    cb.cp().bin(["1jet"]).process(["singlet"]).AddSyst(cb, "CMS_btag_veto", "lnN", ch.SystMap()(1.0211))
     
-    cb.cp().process(["LFV"]).AddSyst(cb,"TheoH_$MASS", "lnN", ch.SystMap('mass')(["200","300"], 1.018)(["450"],1.02)(["600","750"], 1.021)(["900"],1.022) )
-    cb.cp().process(["LFV"]).AddSyst(cb,"TheoHPDF_$MASS", "lnN", ch.SystMap('mass')(["200","300"], 1.03)(["450"],1.031)(["600"], 1.035)(["750"], 1.04)(["900"],1.046) )
+    cb.cp().process(["LFV"]).AddSyst(cb,"QCDscale_Higgs_gg_$MASS", "lnN", ch.SystMap('mass')(["200","300"], 1.018)(["450"],1.02)(["600","750"], 1.021)(["900"],1.022) )
+    cb.cp().process(["LFV"]).AddSyst(cb,"pdf_Higgs_gg_$MASS", "lnN", ch.SystMap('mass')(["200","300"], 1.03)(["450"],1.031)(["600"], 1.035)(["750"], 1.04)(["900"],1.046) )
 
     cb.cp().process(["QCD"]).AddSyst(cb,"norm_QCD", "lnN", ch.SystMap()(1.30))
 
-    cb.cp().process(["DY", "DYTT"]).AddSyst(cb, "norm_z", "lnN", ch.SystMap()(1.1))
-    
+    cb.cp().process(["DY", "DYTT"]).AddSyst(cb, "QCDscale_z", "lnN", ch.SystMap()(1.001))
     cb.cp().process(["DY", "DYTT"]).AddSyst(cb,"norm_z_$BIN", "lnN", ch.SystMap()(1.05))
+    cb.cp().process(["DY", "DYTT"]).AddSyst(cb,"pdf_z", "lnN", ch.SystMap()(1.02))
 
-    cb.cp().process(["EWKDiboson"]).AddSyst(cb, "norm_Diboson ", "lnN", ch.SystMap()(1.05))
-
+    cb.cp().process(["EWKDiboson"]).AddSyst(cb, "QCDscale_Diboson ", "lnN", ch.SystMap()(1.035))
+    cb.cp().process(["EWKDiboson"]).AddSyst(cb, "pdf_qq_Diboson ", "lnN", ch.SystMap()(1.05))
     cb.cp().process(["EWKDiboson"]).AddSyst(cb,"norm_Diboson_$BIN", "lnN", ch.SystMap()(1.05))
     
+    cb.cp().process(["EWKDiboson"]).AddSyst(cb, "QCDscale_W", "lnN", ch.SystMap()(1.008))
+    cb.cp().process(["EWKDiboson"]).AddSyst(cb, "pdf_W", "lnN", ch.SystMap()(1.038))
+    cb.cp().process(["EWKDiboson"]).AddSyst(cb,"norm_W_$BIN", "lnN", ch.SystMap()(1.05))
+    
     cb.cp().process(["ttbar"]).AddSyst(cb, "norm_TT ", "lnN", ch.SystMap()(1.12))
-    
     cb.cp().process(["ttbar"]).AddSyst(cb,"norm_TT_$BIN", "lnN", ch.SystMap()(1.05))
-    
-    cb.cp().process(["singlet"]).AddSyst(cb, "norm_T ", "lnN", ch.SystMap()(1.05))
-    
+
+    cb.cp().process(["singlet"]).AddSyst(cb, "QCDscale_T ", "lnN", ch.SystMap()(1.03))  
+    cb.cp().process(["singlet"]).AddSyst(cb, "pdf_T ", "lnN", ch.SystMap()(1.05))  
     cb.cp().process(["singlet"]).AddSyst(cb,"norm_T_$BIN", "lnN", ch.SystMap()(1.05))
 
-    cb.cp().process(["SMH"]).AddSyst(cb,"TheoSMH", "lnN", ch.SystMap()(1.039))
-    cb.cp().process(["SMH"]).AddSyst(cb,"TheoSMHPDF", "lnN", ch.SystMap()(1.032))
+    cb.cp().process(["SMH"]).AddSyst(cb,"QCDscale_ggH", "lnN", ch.SystMap()(1.039))
+    cb.cp().process(["SMH"]).AddSyst(cb,"pdf_ggH", "lnN", ch.SystMap()(1.032))
     #cb.cp().process(["SMH"]).AddSyst(cb,"BR_htt_THU", "lnN", ch.SystMap()(1.017));
     #cb.cp().process(["SMH"]).AddSyst(cb,"BR_htt_PU_mq", "lnN", ch.SystMap()(1.0099));
     #cb.cp().process(["SMH"]).AddSyst(cb,"BR_htt_PU_alphas", "lnN", ch.SystMap()(1.0062));
@@ -126,7 +129,7 @@ for infile in onlyfiles:
     
     
     #cb.cp().process(["DY"]).AddSyst(cb, "etfakeES", "shape", ch.SystMap()(1.0))
-    cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "EES", "shape", ch.SystMap()(1.0))
+    cb.process(sig_procs+ mcbkg_procs).AddSyst(cb, "CMS_scale_e", "shape", ch.SystMap()(1.0))
     #cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "EESPhi", "shape", ch.SystMap()(1.0))
     #cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "EESRho", "shape", ch.SystMap()(1.0))
     cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "MES", "shape", ch.SystMap()(1.0))
@@ -136,7 +139,11 @@ for infile in onlyfiles:
     cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "uesCharged", "shape", ch.SystMap()(1.0))
     cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, "uesHF", "shape", ch.SystMap()(1.0))
 
+
    # print cb.cp().backgrounds()
+    ### nuisances rename
+    cb.cp().process(sig_procs+ mcbkg_procs).RenameSystematic(cb, "CMS_scale_e", "EES")
+    
 
     myfile=aux_shapes+inputFile
     cb.cp().backgrounds().ExtractShapes(myfile,"$BIN/$PROCESS", "$BIN/$PROCESS_$SYSTEMATIC");
