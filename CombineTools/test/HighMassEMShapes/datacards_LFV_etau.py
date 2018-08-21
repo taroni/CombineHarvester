@@ -71,16 +71,17 @@ for infile in onlyfiles:
     cb.cp().process(["QCD"]).AddSyst(cb,"norm_QCD", "lnN", ch.SystMap()(1.30))
 
     cb.cp().process(["DY", "DYTT"]).AddSyst(cb, "QCDscale_z", "lnN", ch.SystMap()(1.001))
-    cb.cp().process(["DY", "DYTT"]).AddSyst(cb,"norm_z_$BIN", "lnN", ch.SystMap()(1.05))
     cb.cp().process(["DY", "DYTT"]).AddSyst(cb,"pdf_z", "lnN", ch.SystMap()(1.02))
+    cb.cp().process(["DY"]).AddSyst(cb,"norm_zothers_$BIN", "lnN", ch.SystMap()(1.05))
+    cb.cp().process(["DYTT"]).AddSyst(cb,"norm_z_$BIN", "lnN", ch.SystMap()(1.05))
 
     cb.cp().process(["EWKDiboson"]).AddSyst(cb, "QCDscale_Diboson ", "lnN", ch.SystMap()(1.035))
     cb.cp().process(["EWKDiboson"]).AddSyst(cb, "pdf_qq_Diboson ", "lnN", ch.SystMap()(1.05))
     cb.cp().process(["EWKDiboson"]).AddSyst(cb,"norm_Diboson_$BIN", "lnN", ch.SystMap()(1.05))
     
-    cb.cp().process(["EWKDiboson"]).AddSyst(cb, "QCDscale_W", "lnN", ch.SystMap()(1.008))
-    cb.cp().process(["EWKDiboson"]).AddSyst(cb, "pdf_W", "lnN", ch.SystMap()(1.038))
-    cb.cp().process(["EWKDiboson"]).AddSyst(cb,"norm_W_$BIN", "lnN", ch.SystMap()(1.05))
+    cb.cp().process(["W"]).AddSyst(cb, "QCDscale_W", "lnN", ch.SystMap()(1.008))
+    cb.cp().process(["W"]).AddSyst(cb, "pdf_W", "lnN", ch.SystMap()(1.038))
+    cb.cp().process(["W"]).AddSyst(cb,"norm_W_$BIN", "lnN", ch.SystMap()(1.05))
     
     cb.cp().process(["ttbar"]).AddSyst(cb, "norm_TT ", "lnN", ch.SystMap()(1.12))
     cb.cp().process(["ttbar"]).AddSyst(cb,"norm_TT_$BIN", "lnN", ch.SystMap()(1.05))

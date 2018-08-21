@@ -60,27 +60,34 @@ for infile in onlyfiles:
 
     cb.cp().process(sig_procs+["SMH", "DY", "DYTT","ttbar", "singlet","EWKDiboson"]).AddSyst(cb, "CMS_lumi_13TeV", "lnN", ch.SystMap()(1.025))
     
-    cb.cp().bin(["1jet"]).process(["ttbar"]).AddSyst(cb, "btagVeto", "lnN", ch.SystMap()(1.0245))
-    cb.cp().bin(["1jet"]).process(["singlet"]).AddSyst(cb, "btagVeto", "lnN", ch.SystMap()(1.0211))
+    cb.cp().bin(["1jet"]).process(["ttbar"]).AddSyst(cb, "CMS_btag_veto", "lnN", ch.SystMap()(1.0245))
+    cb.cp().bin(["1jet"]).process(["singlet"]).AddSyst(cb, "CMS_btag_veto", "lnN", ch.SystMap()(1.0211))
     
     #cb.cp().process(["SMH","LFV"]).AddSyst(cb,"TheoH", "lnN", ch.SystMap()(1.10))
     cb.cp().process(["LFV"]).AddSyst(cb,"QCDscale_Higgs_gg_$MASS", "lnN", ch.SystMap('mass')(["200","300"], 1.018)(["450"],1.02)(["600","750"], 1.021)(["900"],1.022) )
     cb.cp().process(["LFV"]).AddSyst(cb,"pdf_Higgs_gg_$MASS", "lnN", ch.SystMap('mass')(["200","300"], 1.03)(["450"],1.031)(["600"], 1.035)(["750"], 1.04)(["900"],1.046) )
 
-    cb.cp().process(["fakes"]).AddSyst(cb, "norm_taufakes_etauhad", "lnN", ch.SystMap()(1.30))
- 
+    cb.cp().process(["fakes"]).AddSyst(cb, "norm_taufakes_etauhad", "lnN", ch.SystMap()(1.30)) 
     cb.cp().process(["fakes"]).AddSyst(cb,"norm_taufakes_etauhad_uncor_$BIN", "lnN", ch.SystMap()(1.1))
 
+    cb.cp().process(["DY"]).AddSyst(cb, "norm_etaufakes", "lnN", ch.SystMap()(1.20))
+    #cb.cp().process(["DY"]).AddSyst(cb, "norm_etaufakes_$BIN", "lnN", ch.SystMap()(1.10))
+
+    
+
     cb.cp().process(["DY", "DYTT"]).AddSyst(cb, "QCDscale_z", "lnN", ch.SystMap()(1.001))
-    cb.cp().process(["DY", "DYTT"]).AddSyst(cb,"norm_z_$BIN", "lnN", ch.SystMap()(1.05))
     cb.cp().process(["DY", "DYTT"]).AddSyst(cb,"pdf_z", "lnN", ch.SystMap()(1.02))
+
+    cb.cp().process(["DY"]).AddSyst(cb,"norm_z_$BIN", "lnN", ch.SystMap()(1.05))
+    cb.cp().process(["DYTT"]).AddSyst(cb,"norm_zothers_$BIN", "lnN", ch.SystMap()(1.05))
+
 
     cb.cp().process(["EWKDiboson"]).AddSyst(cb, "QCDscale_Diboson ", "lnN", ch.SystMap()(1.035))
     cb.cp().process(["EWKDiboson"]).AddSyst(cb, "pdf_qq_Diboson ", "lnN", ch.SystMap()(1.05))
     cb.cp().process(["EWKDiboson"]).AddSyst(cb,"norm_Diboson_$BIN", "lnN", ch.SystMap()(1.05))
     
-    cb.cp().process(["ttbar"]).AddSyst(cb, "QCDscale_TT ", "lnN", ch.SystMap()(1.12))
-    cb.cp().process(["ttbar"]).AddSyst(cb,"QCDscale_TT_$BIN", "lnN", ch.SystMap()(1.05))
+    cb.cp().process(["ttbar"]).AddSyst(cb, "norm_TT ", "lnN", ch.SystMap()(1.12))
+    cb.cp().process(["ttbar"]).AddSyst(cb,"norm_TT_$BIN", "lnN", ch.SystMap()(1.05))
 
     cb.cp().process(["singlet"]).AddSyst(cb, "QCDscale_T ", "lnN", ch.SystMap()(1.03))  
     cb.cp().process(["singlet"]).AddSyst(cb, "pdf_T ", "lnN", ch.SystMap()(1.05))  
@@ -123,6 +130,8 @@ for infile in onlyfiles:
     cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, 'jesSinglePionECAL',  "shape", ch.SystMap()(1.0))
     cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, 'jesSinglePionHCAL',  "shape", ch.SystMap()(1.0))
     cb.cp().process(sig_procs+ mcbkg_procs).AddSyst(cb, 'jesTimePtEta'     ,  "shape", ch.SystMap()(1.0))
+
+
     
     cb.cp().process(sig_procs+["SMH",  "DYTT", "ttbar", "singlet","EWKDiboson"]).AddSyst(cb, "highPtTau", "shape", ch.SystMap()(1.0))
 
